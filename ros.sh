@@ -2,6 +2,7 @@
 sudo apt-get update
 sudo apt-get install ros-melodic-control*
 sudo apt-get install ros-melodic-ros-control*
+sudo apt install ros-melodic-rqt-joint-trajectory-controller
 
 cd ~catkin_ws/src
 git clone https://github.com/ros-industrial/ur_msgs.git
