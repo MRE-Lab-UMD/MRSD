@@ -2,6 +2,7 @@
 export WORKSPACE=$HOME/catkin_ws
 cd $WORKSPACE/src/
 
+sudo apt install ros-melodic-ddynamic-reconfigure
 git clone https://github.com/IntelRealSense/realsense-ros.git
 cd realsense-ros/
 git checkout `git tag | sort -V | grep -P "^2.\d+\.\d+" | tail -1`
