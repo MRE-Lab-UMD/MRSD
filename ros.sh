@@ -3,6 +3,9 @@ sudo apt-get update
 sudo apt-get install ros-melodic-control*
 sudo apt-get install ros-melodic-ros-control*
 sudo apt install ros-melodic-rqt-joint-trajectory-controller
+sudo apt-get install ros-melodic-ur-client-library
+sudo apt-get install ros-melodic-industrial-robot-status-interface
+sudo apt install ros-melodic-ddynamic-reconfigure
 
 source /opt/ros/noetic/setup.bash
 mkdir -p ~/catkin_ws/src
