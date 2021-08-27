@@ -13,4 +13,5 @@ sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(ls
 sudo apt-get install librealsense2-dkms
 sudo apt-get install librealsense2-utils
 cd
-mkdir MRSD_APPS/src
+mkdir MRSD_APPS
+
